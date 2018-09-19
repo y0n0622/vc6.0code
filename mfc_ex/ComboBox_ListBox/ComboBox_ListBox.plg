@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ComboBox_ListBox - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ComboBox_ListBox.res" /d "_DEBUG" /d "_AFXDLL" "F:\c++\file_ku\mfc_ex\ComboBox_ListBox\ComboBox_ListBox.rc"" 
+Creating temporary file "C:\Users\yan\AppData\Local\Temp\RSPE8D0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ComboBox_ListBox.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\c++\file_ku\mfc_ex\ComboBox_ListBox\ComboBox_ListBox.cpp"
+"F:\c++\file_ku\mfc_ex\ComboBox_ListBox\ComboBox_ListBoxDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\yan\AppData\Local\Temp\RSPE8D0.tmp" 
+Creating temporary file "C:\Users\yan\AppData\Local\Temp\RSPE8D1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ComboBox_ListBox.pdb" /debug /machine:I386 /out:"Debug/ComboBox_ListBox.exe" /pdbtype:sept 
+".\Debug\ComboBox_ListBox.obj"
+".\Debug\ComboBox_ListBoxDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ComboBox_ListBox.res"
+]
+Creating command line "link.exe @C:\Users\yan\AppData\Local\Temp\RSPE8D1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ComboBox_ListBoxDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+ComboBox_ListBox.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ComboBox_ListBox.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

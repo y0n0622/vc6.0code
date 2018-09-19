@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChatRoomClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ChatRoomClient.res" /d "_DEBUG" "C:\soft\files_code\ChatRoom\ChatRoomClient\ChatRoomClient.rc"" 
+Creating temporary file "C:\Users\fzyspark\AppData\Local\Temp\RSPD698.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ChatRoomClient.pdb" /debug /machine:I386 /out:"Debug/ChatRoomClient.exe" /pdbtype:sept 
+.\Debug\ChatRoomClient.obj
+.\Debug\ChatRoomClientDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\ChatRoomClient.res
+]
+Creating command line "link.exe @C:\Users\fzyspark\AppData\Local\Temp\RSPD698.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+ChatRoomClient.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

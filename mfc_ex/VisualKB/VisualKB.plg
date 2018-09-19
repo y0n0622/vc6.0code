@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisualKB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\yan\AppData\Local\Temp\RSPCFBD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/VisualKB.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\c++\file_ku\mfc_ex\VisualKB\VisualKB.cpp"
+]
+Creating command line "cl.exe @C:\Users\yan\AppData\Local\Temp\RSPCFBD.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/VisualKB.pdb" /debug /machine:I386 /out:"Debug/VisualKB.exe" /pdbtype:sept  ".\Debug\VisualKB.obj" "
+<h3>Output Window</h3>
+Compiling...
+VisualKB.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+VisualKB.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

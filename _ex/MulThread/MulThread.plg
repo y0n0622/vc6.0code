@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MulThread - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MulThread.res" /d "_DEBUG" /d "_AFXDLL" "E:\C++基础逆向\第三课\MulThread\MulThread.rc"" 
+Creating temporary file "C:\Users\Creaker\AppData\Local\Temp\RSPC5B2.tmp" with contents
+[
+/nologo /MDd /W3 /GX /Zd /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MulThread.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++基础逆向\第三课\MulThread\MulThread.cpp"
+"E:\C++基础逆向\第三课\MulThread\MulThreadDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Creaker\AppData\Local\Temp\RSPC5B2.tmp" 
+Creating temporary file "C:\Users\Creaker\AppData\Local\Temp\RSPC5B3.tmp" with contents
+[
+/nologo /MDd /W3 /GX /Zd /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MulThread.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++基础逆向\第三课\MulThread\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Creaker\AppData\Local\Temp\RSPC5B3.tmp" 
+Creating temporary file "C:\Users\Creaker\AppData\Local\Temp\RSPC5B4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MulThread.pdb" /map:"test.map" /debug /machine:I386 /out:"Debug/MulThread.exe" /pdbtype:sept /mapinfo:lines 
+".\Debug\MulThread.obj"
+".\Debug\MulThreadDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MulThread.res"
+]
+Creating command line "link.exe @C:\Users\Creaker\AppData\Local\Temp\RSPC5B4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MulThread.cpp
+MulThreadDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/MulThread.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MulThread.sbr" ".\Debug\MulThreadDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MulThread.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

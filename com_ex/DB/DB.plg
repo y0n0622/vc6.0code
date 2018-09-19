@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\yan\AppData\Local\Temp\RSPD297.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/DB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\c++\file_ku\com_ex\DB\DBDoc.cpp"
+"F:\c++\file_ku\com_ex\com_text\DBsrv.cpp"
+]
+Creating command line "cl.exe @C:\Users\yan\AppData\Local\Temp\RSPD297.tmp" 
+Creating temporary file "C:\Users\yan\AppData\Local\Temp\RSPD298.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DB.pdb" /debug /machine:I386 /out:"Debug/DB.exe" /pdbtype:sept 
+".\Debug\DB.obj"
+".\Debug\DBDoc.obj"
+".\Debug\DBsrv.obj"
+".\Debug\DBView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\DB.res"
+]
+Creating command line "link.exe @C:\Users\yan\AppData\Local\Temp\RSPD298.tmp"
+<h3>Output Window</h3>
+Compiling...
+DBDoc.cpp
+F:\c++\file_ku\com_ex\DB\DBDoc.cpp(119) : error C2440: 'type cast' : cannot convert from 'class CString' to 'char *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+DBsrv.cpp
+f:\c++\file_ku\com_ex\com_text\dbsrv.cpp(82) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Generating Code...
+Error executing cl.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/DB.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\DB.sbr" ".\Debug\DBDoc.sbr" ".\Debug\DBsrv.sbr" ".\Debug\DBView.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\DBsrv.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DB.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

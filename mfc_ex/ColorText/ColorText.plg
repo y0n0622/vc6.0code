@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ColorText - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\yan\AppData\Local\Temp\RSPFC80.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/ColorText.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\c++\file_ku\mfc_ex\ColorText\ColorText.cpp"
+]
+Creating command line "cl.exe @C:\Users\yan\AppData\Local\Temp\RSPFC80.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ColorText.pdb" /debug /machine:I386 /out:"Debug/ColorText.exe" /pdbtype:sept  ".\Debug\ColorText.obj" "
+<h3>Output Window</h3>
+Compiling...
+ColorText.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ColorText.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

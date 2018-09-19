@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MappingFileRead - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\fzyspark\AppData\Local\Temp\RSPF56B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/MappingFileRead.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\soft\files_code\MappingFileRead\MappingFileRead.cpp"
+"C:\soft\files_code\MappingFileRead\MappingFileReadDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\fzyspark\AppData\Local\Temp\RSPF56B.tmp" 
+Creating temporary file "C:\Users\fzyspark\AppData\Local\Temp\RSPF56C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/MappingFileRead.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\soft\files_code\MappingFileRead\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\fzyspark\AppData\Local\Temp\RSPF56C.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MappingFileRead.cpp
+MappingFileReadDlg.cpp
+Generating Code...
+Creating temporary file "C:\Users\fzyspark\AppData\Local\Temp\RSPF879.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MappingFileRead.pdb" /debug /machine:I386 /out:"Debug/MappingFileRead.exe" /pdbtype:sept 
+.\Debug\MappingFileRead.obj
+.\Debug\MappingFileReadDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\MappingFileRead.res
+]
+Creating command line "link.exe @C:\Users\fzyspark\AppData\Local\Temp\RSPF879.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/MappingFileRead.bsc"  .\Debug\StdAfx.sbr .\Debug\MappingFileRead.sbr .\Debug\MappingFileReadDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MappingFileRead.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

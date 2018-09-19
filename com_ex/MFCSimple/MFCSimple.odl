@@ -1,0 +1,67 @@
+// MFCSimple.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (MFCSimple.tlb) that will become a resource in
+// MFCSimple.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(F17B8AC4-D9B6-449D-AC06-6A5DA8762D46), version(1.0),
+  helpfile("MFCSimple.hlp"),
+  helpstring("MFCSimple ActiveX Control module"),
+  control ]
+library MFCSIMPLELib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primary dispatch interface for CMFCSimpleCtrl
+
+	[ uuid(EAB1B76C-400D-48E7-8CBC-42B899B7B848),
+	  helpstring("Dispatch interface for MFCSimple Control"), hidden ]
+	dispinterface _DMFCSimple
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CMFCSimpleCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CMFCSimpleCtrl)
+			//}}AFX_ODL_METHOD
+	};
+
+	//  Event dispatch interface for CMFCSimpleCtrl
+
+	[ uuid(40421655-E832-449B-8CEA-618B9C1FC185),
+	  helpstring("Event interface for MFCSimple Control") ]
+	dispinterface _DMFCSimpleEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CMFCSimpleCtrl)
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CMFCSimpleCtrl
+
+	[ uuid(3CA01ED3-D9D2-4FFA-912A-FAE6CAC5C4AF),
+	  helpstring("MFCSimple Control"), control ]
+	coclass MFCSimple
+	{
+		[default] dispinterface _DMFCSimple;
+		[default, source] dispinterface _DMFCSimpleEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
